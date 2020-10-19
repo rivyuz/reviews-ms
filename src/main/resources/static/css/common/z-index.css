@@ -1,0 +1,161 @@
+/*************************/
+.entity-image {
+	position:relative;
+	z-index: 1 !important;
+}
+.banner-container {
+	z-index: 2 !important;
+}
+.banner-mask {
+	z-index: 3 !important;
+}
+.soft-mask {
+	z-index: 4;
+}
+.site-footer {
+    z-index: 5 !important;
+}
+.site-header {
+    z-index: 6 !important;
+}
+.mobile-site-header {
+	z-index: 7 !important;
+}
+/*************************/
+
+
+/*************************/
+.burger-container {
+    z-index: 100;
+}
+.burger-links {
+    z-index: 101;
+}
+.footer-menu-links {
+    z-index: 102;
+}
+/*************************/
+/*************************/
+.camera_list {
+	z-index: 200;
+}
+.car_list {
+	z-index: 201;
+}
+.Cats_list {
+	z-index: 202;
+}
+.dog_list {
+	z-index: 203;
+}
+.fitness_center_list {
+	z-index: 204;
+}
+.fragrance_list {
+	z-index: 205;
+}
+.motor_cycle_list {
+	z-index: 206;
+}
+.movie_list {
+	z-index: 207;
+}
+.night_life_list {
+	z-index: 208;
+}
+.OnlineStore_list {
+	z-index: 209;
+}
+.PackersAndMovers_list {
+	z-index: 210;
+}
+.restaurant_list {
+	z-index: 211;
+}
+.salon_list {
+	z-index: 212;
+}
+.scooter_list {
+	z-index: 213;
+}
+.spa_center_list {
+	z-index: 214;
+}
+.tattoo_parlor_list {
+	z-index: 215;
+}
+/*************************/
+/*************************/
+.register-dialog {
+	z-index: 301;
+}
+.login-dialog {
+	z-index: 302;
+}
+.forgot-dialog {
+	z-index: 303;
+}
+.email-dialog{
+	z-index: 304;
+}
+.new-existing-user-dialog {
+	z-index: 305;
+}
+
+/*************************/
+/*************************/
+#upload-photo-dialog-div-id{
+	z-index: 401;
+}
+#newOrExistingUserId {
+	z-index: 403;
+}
+/*************************/
+/*************************/
+.input-dialog-container {
+	z-index: 902;
+}
+.overall-rating-dialog-container {
+	z-index: 903;
+}
+.profile-dialog-container {
+	z-index: 904;
+}
+.history-dialog-container {
+	z-index: 905;
+}
+.pp-dialog-container {
+	z-index: 906;
+}
+.tc-dialog-container {
+	z-index: 907;
+}
+/*************************/
+/*************************/
+.alert-mask {
+	z-index: 1000;
+}
+.hard-mask {
+	z-index: 1001;
+}
+.confirmation-mask {
+	z-index: 1002;
+}
+.reset-mask {
+	z-index: 1003;
+}
+.reset-password-dialog {
+	z-index: 1004;
+}
+.upload-photo-dialog {
+	z-index: 1005;
+}
+.progress-indicator {
+	z-index: 1006;
+}
+/*************************/
+/*************************/
+.alert-dialog{
+	z-index: 1007;
+}
+/*************************/

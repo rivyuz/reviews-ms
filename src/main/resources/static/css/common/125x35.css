@@ -1,0 +1,12 @@
+.sprite { background-image: url('125x35.png'); background-color: transparent; background-repeat: no-repeat; }
+.star_0 { width: 125px; height: 35px; background-position: 0px 0px; }
+.star_0dot5 { width: 125px; height: 35px; background-position: 0px -35px; }
+.star_1 { width: 125px; height: 35px; background-position: 0px -70px; }
+.star_1dot5 { width: 125px; height: 35px; background-position: 0px -105px; }
+.star_2 { width: 125px; height: 35px; background-position: 0px -140px; }
+.star_2dot5 { width: 125px; height: 35px; background-position: 0px -175px; }
+.star_3 { width: 125px; height: 35px; background-position: 0px -210px; }
+.star_3dot5 { width: 125px; height: 35px; background-position: 0px -245px; }
+.star_4 { width: 125px; height: 35px; background-position: 0px -280px; }
+.star_4dot5 { width: 125px; height: 35px; background-position: 0px -315px; }
+.star_5 { width: 125px; height: 35px; background-position: 0px -350px; }

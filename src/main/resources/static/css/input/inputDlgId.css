@@ -1,0 +1,146 @@
+/*don't delete - if removed then all the radio buttons will be checked*/
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+/*don't delete this*/
+
+.input-dialog-container {
+	border-radius:3px;
+	display:none;
+	height: auto;
+	left: 25%;
+	position: fixed;
+	top: 60px;
+	width: 50%;
+	padding: 5px;
+}
+
+.input-dialog {
+	background-color: white;
+	border-radius:3px;
+	height: auto;
+	left: 0%;
+	width: 100%;	
+}
+
+.legend {
+	width: auto;
+}
+
+.input-form {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	padding: 5px;
+}
+.parameter_row {
+	background-color: white;
+	height: 50px;
+	width: 100%;
+	padding: 1%;
+}
+.parameter_name {
+	background-color: white;
+	height: 40px;
+	width: 50%;	
+	float: left;
+	text-align: right;
+	line-height: 35px;
+	padding: 5px;
+}
+.parameter_value {
+	background-color: white;
+	padding: 5px;
+	height: 40px;
+	width: 50%;
+	float: left;
+}
+#commentsDiv {
+	background-color: white;
+	height: auto;
+	width: 100%;
+	padding: 1%;
+}
+#commentsInput {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 90%;
+	background-color: white;
+	height: auto;
+	width: 100%;
+	padding: 1%;
+}
+.submit-review {
+	background-color: white;
+	height: auto;
+	width: 100%;
+	padding: 1%;
+}
+/*************************************************************************@media query - begin******************************************************/
+@media only screen and /*!YUI-Compressor */ (max-width: 2560px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1920px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1600px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1440px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1366px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1280px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1024px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 960px){
+	.input-dialog-container  {
+		left: 0%;
+		width: 100%;
+		overflow-y: scroll;
+		height: 100%;
+		padding-bottom: 65px;
+	}	
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 854px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 823px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 812px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 800px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 768px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 736px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 732px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 731px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 720px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 667px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 640px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 600px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 568px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 540px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 533px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 480px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 424px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 414px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 412px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 411px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 400px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 384px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 375px){
+
+}
+@media only screen and /*!YUI-Compressor */ (max-width: 360px){
+	.parameter_name {
+		font-size: 75%;
+		/*text-align:left;*/
+		line-height: 20px;
+	}	
+	.btn-sm {
+		padding: 3px 8px;
+		font-size: 10px;
+		line-height: 1;
+		border-radius: 2px;
+	}	
+}
+@media only screen and /*!YUI-Compressor */ (max-width: 320px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 213px){}
+/*************************************************************************@media query - end********************************************************/

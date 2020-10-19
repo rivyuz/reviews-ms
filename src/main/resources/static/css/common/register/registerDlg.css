@@ -1,0 +1,176 @@
+.register-dialog {
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius:3px;
+	display:none;
+	height: auto;
+	left: 25%;
+	position: fixed;
+	top: 300px;
+	width: 50%;	
+}
+.register-form {
+	background-color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px;	
+}
+.register-form-input {
+	height: auto;
+	width: 100%;
+}
+.register-email, .register-password, .register-username {
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 2px;
+	color: black;
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: FontAwesome;
+	font-size: 125%;
+	height: 35px;
+	margin-top: 10px;
+	padding-left: 2px;
+	width: 100%;
+}
+.register-email-blank, .register-email-invalid, .register-password-blank, .register-username-blank {
+	color: red;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 80%;
+	margin-top: 10px;
+}
+.register-btn {
+	background-color: #1CB94E !important;
+	border-color: #1CB94A !important;
+	color: #fff !important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 90%;
+	height: auto;
+	margin-top: 20px;
+	outline: none;
+	padding: 14px 0px;
+	text-transform: uppercase;	
+}
+.register-btn:hover { 
+	background-color: #1CA347 !important;
+	border-color: #1CA347 !important;
+	color: black;
+	cursor: pointer;
+}
+.register-tc {
+	display: block;
+	height: 25px;
+	margin-top: 10px;
+	width: 100%;
+}
+.register-tc:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.register-tc-check {
+	clear: none;
+	float: left;
+	margin-top: 1px !important;
+}
+.register-tc-check:hover {
+	cursor: pointer;
+}
+.register-tc-label {
+	clear: none;
+	float: left;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	line-height: 15px;
+	margin-left: 3px;
+}
+.register-tc-label:hover {
+	cursor: pointer;
+}
+.register-tc-link {
+	float: right;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.register-login-link {
+	display: block;
+	height: 25px;
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+.register-login-link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.register-login-link-label {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
+/*************************************************************************@media query - begin******************************************************/
+@media only screen and /*!YUI-Compressor */ (max-width: 2560px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1920px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1600px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1440px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1366px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1280px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1024px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 960px){
+	.register-dialog {
+		left: 0%;
+		width: 100%;
+		overflow-y: scroll;
+		height: 100%;
+		padding-bottom: 65px;
+		top: 60px;
+	}
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 854px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 823px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 812px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 800px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 768px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 736px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 732px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 731px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 720px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 667px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 640px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 600px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 568px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 540px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 533px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 480px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 424px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 414px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 412px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 411px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 400px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 384px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 375px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 360px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 320px){
+	.register-tc-label{
+		font-size: 70%;	
+	}
+
+	.register-tc-link {
+		font-size: 70%;	
+	}
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 213px) {}
+/*************************************************************************@media query - end********************************************************/

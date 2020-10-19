@@ -1,0 +1,85 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.page-nav {
+	width: 25%;
+	background: white;
+	float: left;
+	height: auto;
+	min-height: 95vh;
+}
+.page-article {
+	width:50%;
+	background: white;
+	float: left;
+	height: auto;
+	min-height: 95vh;
+	padding: 5px !important;
+}
+.page-ad {
+	width: 25%;
+	background: white;
+	float: right;
+	height: auto;
+	min-height: 95vh;	
+}
+/*************************************************************************@media query - begin******************************************************/
+@media only screen and /*!YUI-Compressor */ (max-width: 2560px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1920px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1600px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1440px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1366px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1280px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1024px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 960px){
+	.page-nav {
+		display: none;
+	}
+	.page-article {
+		width:100%;
+		float: none;
+		min-height: 70vh;
+	}
+	.page-ad {
+		width: 100%;
+		float: none;
+		min-height: 30vh;	
+	}
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 854px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 823px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 812px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 800px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 768px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 736px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 732px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 731px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 720px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 667px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 640px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 600px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 568px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 540px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 533px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 480px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 424px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 414px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 412px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 411px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 400px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 384px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 375px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 360px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 320px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 213px){}
+/*************************************************************************@media query - end********************************************************/

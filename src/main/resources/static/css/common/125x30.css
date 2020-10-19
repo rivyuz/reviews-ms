@@ -1,0 +1,18 @@
+	.starsDiv { 
+		background-image: url('../../images/_stars/125x30.png'); 
+		background-color: transparent; 
+		background-repeat: no-repeat; 
+		width: 100%; 
+		height: 35px;
+	}
+	.star_0 { background-position: 0px 0px; }
+	.star_0dot5 { background-position: 0px -30px; }
+	.star_1 { background-position: 0px -60px; }
+	.star_1dot5 { background-position: 0px -90px; }
+	.star_2 { background-position: 0px -120px; }
+	.star_2dot5 { background-position: 0px -150px; }
+	.star_3 { background-position: 0px -180px; }
+	.star_3dot5 { background-position: 0px -210px; }
+	.star_4 { background-position: 0px -240px; }
+	.star_4dot5 { background-position: 0px -270px; }
+	.star_5 { background-position: 0px -300px; }

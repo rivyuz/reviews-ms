@@ -1,0 +1,114 @@
+.forgot-dialog {
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius:3px;
+	display:none;
+	height: auto;
+	left: 25%;
+	position: fixed;
+	top: 300px;
+	width: 50%;	
+}
+.forgot-form {
+	background-color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px;	
+}
+.forgot-form-input {
+	height: auto;
+	width: 100%;
+}
+.forgot-email {
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 2px;
+	color: black;
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: FontAwesome;
+	font-size: 125%;
+	height: 35px;
+	margin-top: 10px;
+	padding-left: 2px;
+	width: 100%;
+}
+.forgot-email-blank, .forgot-email-invalid {
+	color: red;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 80%;
+	margin-top: 10px;
+}
+.forgot-btn {
+	background-color: #5bc0de !important;
+	border-color: #5bc0da !important;
+	color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 90%;
+	height: auto;
+	margin-top: 20px;
+	outline: none;
+	padding: 14px 0px;
+	text-transform: uppercase;	
+}
+.forgot-btn:hover { 
+	background-color: #5bb0de !important;
+	border-color: #5bb0ff !important;
+	color: black;
+	cursor: pointer;
+}
+/*************************************************************************@media query - begin******************************************************/
+@media only screen and /*!YUI-Compressor */ (max-width: 2560px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1920px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1600px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1440px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1366px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1280px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1024px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 960px){
+	.forgot-dialog {
+		left: 0%;
+		width: 100%;
+		overflow-y: scroll;
+		height: 100%;
+		padding-bottom: 65px;
+		top: 60px;
+	}
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 854px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 823px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 812px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 800px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 768px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 736px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 732px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 731px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 720px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 667px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 640px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 600px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 568px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 540px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 533px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 480px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 424px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 414px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 412px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 411px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 400px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 384px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 375px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 360px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 320px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 213px) {}
+/*************************************************************************@media query - end********************************************************/

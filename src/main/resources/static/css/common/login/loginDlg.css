@@ -1,0 +1,151 @@
+.login-dialog {
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius:3px;
+	display:none;
+	height: auto;
+	left: 25%;
+	position: fixed;
+	top: 300px;
+	width: 50%;	
+}
+.login-form {
+	background-color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px;	
+}
+.login-form-input {
+	height: auto;
+	width: 100%;
+}
+.login-email, .login-password, .login-username {
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 2px;
+	color: black;
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: FontAwesome;
+	font-size: 125%;
+	height: 35px;
+	margin-top: 10px;
+	padding-left: 2px;
+	width: 100%;
+}
+.login-email-blank, .login-email-invalid, .login-password-blank, .login-username-blank {
+	color: red;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 80%;
+	margin-top: 10px;
+}
+.login-btn {
+	background-color: #5bc0de !important;
+	border-color: #5bc0da !important;
+	color: #fff !important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 90%;
+	height: auto;
+	margin-top: 20px;
+	outline: none;
+	padding: 14px 0px;
+	text-transform: uppercase;	
+}
+.login-btn:hover { 
+	background-color: #5bb0de !important;
+	border-color: #5bb0ff !important;
+	color: black;
+	cursor: pointer;
+}
+.login-forgot-link {
+	display: block;
+	height: 25px;
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+.login-forgot-link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.login-forgot-link-label {
+	float: right;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
+.login-register-link {
+	display: block;
+	height: 25px;
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+.login-register-link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.login-register-link-label {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
+/*************************************************************************@media query - begin******************************************************/
+@media only screen and /*!YUI-Compressor */ (max-width: 2560px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1920px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1600px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1440px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1366px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1280px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1024px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 960px){
+	.login-dialog {
+		left: 0%;
+		width: 100%;
+		overflow-y: scroll;
+		height: 100%;
+		padding-bottom: 65px;
+		top: 60px;
+	}
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 854px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 823px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 812px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 800px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 768px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 736px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 732px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 731px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 720px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 667px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 640px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 600px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 568px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 540px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 533px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 480px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 424px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 414px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 412px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 411px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 400px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 384px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 375px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 360px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 320px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 213px) {}
+/*************************************************************************@media query - end********************************************************/

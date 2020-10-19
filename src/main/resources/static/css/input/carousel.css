@@ -1,0 +1,10 @@
+.carousel-entity-name {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: FontAwesome;
+	font-size: 50%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: auto;
+    margin: auto;
+}

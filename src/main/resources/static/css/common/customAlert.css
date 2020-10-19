@@ -1,0 +1,135 @@
+.alert-dialog{
+	background-color: #FFFFFF;
+	display:none;
+	height: auto;
+	left: 37.5%;
+	position: fixed;
+	top: 60px;
+	width: 25%;
+}
+.alert-header{ 
+	background-color: #F2F5F4;
+	color:black;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+	height: 50px;
+	line-height: 40px;
+	padding:5px; 
+	text-align:center;
+	width: 100%;
+}
+.alert-body{ 
+	background-color: #FCFFFE;
+	color:black;
+	display: table;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 80%;
+	height: 100px; 
+	text-align:center;
+	width: 100%;
+}
+.alert-message {
+	display: table-cell !important;
+	vertical-align: middle !important;
+	text-align:center !important;
+	width: 100%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 125%;
+	font-weight: bold;
+}
+.alert-footer{ 
+	background-color: #F2F5F4;
+	color:black;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 90%;
+	height: 50px;
+	padding: 5px;
+	text-align:center;
+	width: 100%;
+}
+.ok-btn, .yes-btn { 
+	background-color: #1CB94E;
+	border-color: #1CA347;
+	border-radius: 4px;
+	color: white;
+	cursor:pointer;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 90%;
+	height:40px;
+	text-align:center;
+	width:80px;
+}
+.ok-btn:hover, .yes-btn:hover {
+	background-color: #1CA347;
+	color: black;
+	border-color: #1CA347;
+	cursor: pointer;
+}
+.no-btn { 
+	background-color: rgb(252, 53, 82);
+	border-color: rgb(252, 53, 83);
+	border-radius: 4px;
+	color: white;
+	cursor:pointer;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 90%;
+	height:40px;
+	text-align:center;
+	width:80px;
+}
+.no-btn:hover { 
+	background-color: #ff0000;
+	color: black;
+	border-color: rgb(252, 53, 82);
+	cursor: pointer;
+}
+/*************************************************************************@media query - begin******************************************************/
+@media only screen and /*!YUI-Compressor */ (max-width: 2560px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1920px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1600px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1440px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1366px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1280px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 1024px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 960px){
+	.alert-dialog{
+		left: 0%;
+		width: 100%;
+	}
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 854px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 823px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 812px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 800px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 768px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 736px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 732px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 731px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 720px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 667px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 640px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 600px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 568px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 540px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 533px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 480px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 424px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 414px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 412px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 411px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 400px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 384px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 375px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 360px){}
+@media only screen and /*!YUI-Compressor */ (max-width: 320px){}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 213px){}
+/*************************************************************************@media query - end********************************************************/

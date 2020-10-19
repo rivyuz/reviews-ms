@@ -1,0 +1,328 @@
+.comments_para {
+  height: auto;
+}
+.comments_para_fixed {
+  height: 50px;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+@charset "UTF-8";
+/** 2.34 Comment Boxes */
+
+.box-comment-meta {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: FontAwesome;
+}
+
+.box-comment-meta a:hover {
+    color: #55bbeb;
+}
+
+.box-comment-meta-icon {
+    font-size: 14px;
+}
+
+.box-comment-title {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.box-comment-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.box-comment-body {
+    font-size: 15px;
+    font-family: FontAwesome;
+}
+
+.box-comment-classic {
+    position: relative;
+}
+
+.box-comment-classic:before,
+.box-comment-classic:after {
+    content: '';
+    position: absolute;
+    left: 19px;
+    background: #d9d9d9;
+    width: 1px;
+}
+
+.box-comment-classic:before {
+    top: 48px;
+    bottom: -8px;
+}
+
+.box-comment-classic:last-child:before {
+    display: none;
+}
+
+.box-comment-classic + .box-comment-classic,
+.box-comment-classic > .box-comment {
+    margin-top: 16px;
+}
+
+.box-comment-boxed .box-comment-img {
+    margin-top: 15px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    padding: 2px;
+    margin-right: -30px;
+}
+
+.box-comment-boxed .box-comment-body {
+    margin-top: 10px;
+}
+
+.box-comment-boxed .media-body {
+    padding: 15px 20px 15px 30px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+}
+
+.box-comment-boxed + .box-comment-boxed,
+.box-comment-boxed > .box-comment {
+    margin-top: 20px;
+}
+
+.box-comment-outboxed .box-comment-body {
+    margin-top: 5px;
+}
+
+.box-comment-outboxed + .box-comment-outboxed,
+.box-comment-outboxed > .box-comment {
+    margin-top: 20px;
+}
+/*************************************************************************@media query - begin******************************************************/
+/*amazon kindle fire - hd * 8.9"*/
+@media only screen and /*!YUI-Compressor */ (max-width: 2560px) {
+
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 1920px) {
+
+}
+
+/*amazon kindle fire - hd * 8.9" - Landscape*/
+@media only screen and /*!YUI-Compressor */ (max-width: 1600px) {
+
+}
+
+/*Laptop with HiDPI screen*/
+@media only screen and /*!YUI-Compressor */ (max-width: 1440px) {
+
+}
+
+@media only screen and /*!YUI-Compressor */ (max-width: 1366px) {
+
+}
+
+/*Google Nexus 10*/
+@media only screen and /*!YUI-Compressor */ (max-width: 1280px) {
+
+}
+
+@media only screen and /*!YUI-Compressor */ (min-width: 1200px) {
+    .box-comment-boxed > .box-comment-boxed {
+        margin-left: 30px;
+    }
+    .box-comment-boxed .box-comment-meta {
+        float: right;
+    }
+    .box-comment-boxed > .box-comment-outboxed {
+        margin-left: 80px;
+    }
+		
+    .box-comment-outboxed .box-comment-body {
+        margin-top: 10px;
+    }
+    .box-comment-outboxed .box-comment-img {
+        margin-top: 10px;
+    }
+    .box-comment-outboxed .media-body {
+        padding: 20px;
+        border-radius: 3px;
+        border: 1px solid #d9d9d9;
+    }
+    .box-comment-outboxed .box-comment-meta > li:first-child {
+        float: right;
+        margin-left: 20px;
+    }
+    .box-comment-outboxed > .box-comment-outboxed {
+        margin-left: 80px;
+    }		
+}
+
+/*Amazon Kindle Fire(First Generation)/ Apple iPad 1, 2, 3, 4, Mini/ BlackBerry PlayBook/ Samsung Galaxy Tab*/
+@media only screen and /*!YUI-Compressor */ (max-width: 1024px) {
+
+}
+
+/*Google Nexus 7*/
+@media only screen and /*!YUI-Compressor */ (max-width: 960px) {
+
+}
+
+/*Google Nexus 10 - Landscape*/
+@media only screen and /*!YUI-Compressor */ (max-width: 800px) {
+
+}
+
+/*Apple iPad, iPad Mini - portrait*/
+@media only screen and /*!YUI-Compressor */ (max-width: 768px) {
+
+}
+/* Apple iPhone 6 Plus - Landscape*/
+@media only screen and /*!YUI-Compressor */ (max-width: 736px) {
+
+}
+/* Google Nexus 6 - Landscape, Google Nexus 6P - Landscape */
+@media only screen and /*!YUI-Compressor */ (max-width: 732px) {
+
+}
+
+/*Motorola Droid Razr HD*/
+@media only screen and /*!YUI-Compressor */ (max-width: 720px) {
+
+}
+
+/*Apple iPhone 6 - Landscape*/
+@media only screen and /*!YUI-Compressor */ (max-width: 667px) {
+
+}
+
+/*BlackBerry Z30 - Landscape, Galaxy Note 3 - Landscape,  Galaxy Note II - Landscape, Galaxy S III - Landscape, 
+LG Optimus L70 - Landscape, Google Nexus 4 - Landscape, Google Nexus 5 - Landscape, Nokia N9 - Landscape, Galaxy S5 - Landscape*/
+@media only screen and /*!YUI-Compressor */ (max-width: 640px) {
+
+}
+
+/*BlackBerry Playbook - portrait, Google Nexus 7 - portrait*/
+@media only screen and /*!YUI-Compressor */ (max-width: 600px) {
+
+}
+
+/* Apple iPhone 5 - Landscape */
+@media only screen and /*!YUI-Compressor */ (max-width: 568px) {
+
+}
+
+/*Motorola Droid 3, Droid 4, Droid Razr, Atrix 4G, Atrix 2*/
+@media only screen and /*!YUI-Compressor */ (max-width: 540px) {
+
+}
+
+/* Nokia Lumia 520 - Landscape */
+@media only screen and /*!YUI-Compressor */ (max-width: 533px) {
+
+}
+
+@media only screen and /*!YUI-Compressor */ (min-width: 480px) {
+    .box-comment-img {
+        width: 60px;
+        height: 60px;
+    }
+		
+    .box-comment-classic:after {
+        display: none;
+    }
+    .box-comment-classic + .box-comment-classic:after,
+    .box-comment-classic .media + .box-comment-classic:after {
+        display: block;
+    }
+    .box-comment-classic .media + .box-comment-classic:after {
+        bottom: auto;
+        top: 29px;
+        right: 100%;
+        left: auto;
+        height: 1px;
+        margin-right: 8px;
+        width: 42px;
+    }
+    .box-comment-classic .box-comment-header {
+        margin-top: 5px;
+    }
+    .box-comment-classic > .box-comment {
+        margin-left: 80px;
+    }
+    .box-comment-classic:before {
+        top: 68px;
+    }
+    .box-comment-classic:before,
+    .box-comment-classic:after {
+        left: 29px;
+    }
+		
+    .box-comment-boxed .box-comment-img {
+        margin-right: -50px;
+        padding: 4px;
+    }
+    .box-comment-boxed .media-body {
+        padding: 20px 30px 20px 50px;
+    }		
+}
+/* Apple iPhone 4 - Landscape */
+@media only screen and /*!YUI-Compressor */ (max-width: 480px) {
+    .box-comment-classic > .box-comment .box-comment-img {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+/*LG Optimus LTE, Optimus 4X HD*/
+@media only screen and /*!YUI-Compressor */ (max-width: 424px) {
+
+}
+
+/* Apple iPhone 6 Plus */
+@media only screen and /*!YUI-Compressor */ (max-width: 414px) {
+
+}
+
+/* Google Nexus 5X, Google Nexus 6, Google Nexus 6P */
+@media only screen and /*!YUI-Compressor */ (max-width: 412px) {
+
+}
+
+/*Samsung Galaxy Note*/
+@media only screen and /*!YUI-Compressor */ (max-width: 400px) {
+
+}
+
+/*BlackBerry Z10, Google Nexus 4, LG Optimus G, LG Optimus L70*/
+@media only screen and /*!YUI-Compressor */ (max-width: 384px) {
+
+}
+
+/*Apple iPhone 6*/
+@media only screen and /*!YUI-Compressor */ (max-width: 375px) {
+
+}
+
+/*BlackBerry Z30, Google Nexus 5, Galaxy Note 3, Galaxy Note II, Galaxy S III, Galaxy S5, HTC One X, EVO LTE, HTC Sensation, EVO 3D, Nokia N9*/
+@media only screen and /*!YUI-Compressor */ (max-width: 360px) {
+
+}
+
+/*
+ Apple iPhone 3GS, iPhone 4, iPhone 5/ Google Nexus S/ HTC Evo, Touch HD, Desire HD, Desire/ LG Optimus 2X, Optimus 3D, Optimus Black/ 
+ Motorola Defy, Droid, Droid X, Milestone/ Nokia Lumia 7X0, Lumia 8XX, Lumia 900, N800, N810, N900, 520/ Samsung Galaxy S, SII, W/ 
+ */
+@media only screen and /*!YUI-Compressor */ (max-width: 320px) {
+
+}
+
+/*LG Optimus One*/
+@media only screen and /*!YUI-Compressor */ (max-width: 213px) {
+
+}
+/*************************************************************************@media query - end********************************************************/
